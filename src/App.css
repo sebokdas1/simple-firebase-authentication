@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+.all-btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.googleIcon,
+.facebookIcon,
+.githubIcon {
+  display: flex;
+  align-items: center;
+}
+
+.googleIcon img,
+.facebookIcon img,
+.githubIcon img {
+  width: 50px;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +52,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
